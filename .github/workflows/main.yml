@@ -28,7 +28,6 @@ jobs:
     - run: npm test
     
     name: A job to say hello
-    steps:
       - name: Hello world action step
         id: hello
         uses: actions/hello-world-docker-action@v1
