@@ -1,0 +1,13 @@
+ #สิ่งที่เรียนไป
+- github action
+- Run NodeJS
+- Build pipeline to build Node application => CI (Continuous Integration)
+    - Test/Build
+- Deloy Node application to Heroku => CD (Continuous Deployment)
+    - Test/Build/Deploy
+- Create workflow (github actions workflow) to run Docker
+
+#การบ้าน
+- Build node application by using building pipeline (test/build) => node application
+- Bulid docker image with node application
+- Deploy node application with docker to Heroku

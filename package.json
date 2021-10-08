@@ -1,0 +1,30 @@
+{
+  "name": "github-actions-exercise-04",
+  "version": "1.0.0",
+  "description": "This action prints \"Hello world\" or \"Hello\" + the name of person to greet",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha ./TEST/* --exit",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sakarin23479/github-actions-exercise-04.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sakarin23479/github-actions-exercise-04/issues"
+  },
+  "homepage": "https://github.com/Sakarin23479/github-actions-exercise-04#readme",
+  "devDependencies": {
+    "mocha": "^9.1.2",
+    "nodemon": "^2.0.13",
+    "supertest": "^6.1.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
