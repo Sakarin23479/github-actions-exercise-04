@@ -29,12 +29,12 @@ jobs:
     
     - name: A job to say hello
     - name: Hello world action step
-        id: hello
-        uses: actions/hello-world-docker-action@v1
-        with:
-          who-to-greet: 'Mona the Octocat'
-      - name: Get the output time'
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+         id: hello
+         uses: actions/hello-world-docker-action@v1
+         with:
+           who-to-greet: 'Mona the Octocat'
+    - name: Get the output time'
+         run: echo "The time was ${{ steps.hello.outputs.time }}"
 
   deploy: 
     needs: build
